@@ -1,0 +1,15 @@
+[{
+  "produkttyp": "Schokolade",
+  "bezeichnung": "Vollmilchschokolade",
+  "basispreis": 1.29,
+  "verfallsdatum": "31.08.2025"}
+,{
+  "produkttyp": "Schokolade",
+  "bezeichnung": "Zartbitterschokolade",
+  "basispreis": 1.49,
+  "verfallsdatum": "31.08.2025"}
+,{
+  "produkttyp": "Schokolade",       
+  "bezeichnung": "Nougat Schokolade",
+  "basispreis": 1.39,
+  "verfallsdatum": "31.08.2025"}]

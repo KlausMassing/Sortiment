@@ -1,0 +1,29 @@
+<configuration>
+    <include resource="org/springframework/boot/logging/logback/defaults.xml" />
+
+    <!-- Log STOMP messaging via SimpMessagingTemplate -->
+    <logger name="org.springframework.messaging.simp" level="DEBUG" />
+    <logger name="org.springframework.web.socket" level="DEBUG" />
+    <logger name="org.springframework.web.socket.messaging" level="DEBUG" />
+
+    <!-- Optional: show outbound messages -->
+    <logger name="org.springframework.messaging.simp.broker" level="DEBUG" />
+
+    <logger name="org.springframework.messaging" level="DEBUG" />
+    <logger name="org.springframework.messaging.simp.SimpMessagingTemplate" level="DEBUG" />
+    <logger name="org.springframework.web.socket.messaging.SubProtocolWebSocketHandler"
+        level="DEBUG" />
+
+
+    <root level="INFO">
+        <appender-ref ref="CONSOLE" />
+    </root>
+
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <charset>UTF-8</charset>
+            <pattern>%d{HH:mm:ss.SSS} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+</configuration>
