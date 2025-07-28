@@ -3,6 +3,18 @@
 Dieses Projekt implementiert ein Sortiment-Modul unter Anwendung moderner Software-Architekturprinzipien. Im Mittelpunkt stehen Domain-Driven Design (DDD) und bewährte Entwurfsmuster, um eine robuste, flexible und wartbare Lösung zu schaffen.
 Es wurde für dieses Beispiel bewust darauf verzichtet die Anwendung in drei Module aufzuteilen. Vorteil wäre, das nur das JAR für Applikationslogik in fremde Systeme eingebnden werden muss, um auf die Funnktionaität der Anwendung zuzugreifen.
 
+## Spring Boot
+
+Es handelt sich um eine Spring Boot Anwendung mit zwei Profilen:
+
+- **`rest`**
+- **`h2`**
+
+Das Profil `rest` enthält die Applikationslogik und die Endpoints, die über eine REST-API zur Verfügung stehen.
+Das Profil `h2` ist ein H2-Datenbank-Modul, das die Datenbank für die Anwendung initialisiert und verwendet.
+
+Ohne das Profil `rest` wird die Anwendung einen Testlauf auf der Log-Console ausführen.
+
 ## Verwendete Patterns und deren Vorteile
 
 - **Repository Pattern**  
