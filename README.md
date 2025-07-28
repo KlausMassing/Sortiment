@@ -1,7 +1,7 @@
 # Sortiment
 
 Dieses Projekt implementiert ein Sortiment-Modul unter Anwendung moderner Software-Architekturprinzipien. Im Mittelpunkt stehen Domain-Driven Design (DDD) und bewährte Entwurfsmuster, um eine robuste, flexible und wartbare Lösung zu schaffen.
-Es wurde für dieses Beispiel bewust darauf verzichtet die Anwendung in drei Module aufzuteilen. Vorteil wäre, das nur das JAR für Applikationslogik in fremde Systeme eingebnden werden muss, um auf die Funnktionaität der Anwendung zuzugreifen.
+Es wurde für dieses Beispiel bewust darauf verzichtet die Anwendung in drei Module aufzuteilen. Vorteil wäre, das nur das JAR für Applikationslogik in fremde Systeme eingebunden werden muss, um auf die Funnktionaität der Anwendung zuzugreifen.
 
 ## Spring Boot
 
